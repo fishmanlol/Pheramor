@@ -6,7 +6,7 @@ Registration Views
 * You can swap or click the bottom button to go back or forward
 
 
-## Third-part Framework
+## Third-party Framework
 
 * SnpiKit
 * MultiSlider
