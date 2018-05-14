@@ -149,12 +149,14 @@ class FullNameView: UIView, MoveForwardAndBack {
     private func setupFullNameTextField() {
         let tf = TYTextField()
         self.fullNameTextField = tf
+        tf.returnKeyType = .done
         self.addSubview(tf)
     }
     
     private func setupZipCodeTextField() {
         let tf = TYTextField()
         self.zipCodeTextField = tf
+        tf.returnKeyType = .done
         self.addSubview(tf)
     }
     

@@ -106,6 +106,7 @@ class PasswordView: UIView, MoveForwardAndBack {
         let tf = TYTextField()
         self.passwordTextField = tf
         tf.isSecureTextEntry = true
+        tf.returnKeyType = .done
         self.addSubview(tf)
     }
     
@@ -113,6 +114,7 @@ class PasswordView: UIView, MoveForwardAndBack {
         let tf = TYTextField()
         self.confirmTextField = tf
         tf.isSecureTextEntry = true
+        tf.returnKeyType = .done
         self.addSubview(tf)
     }
     

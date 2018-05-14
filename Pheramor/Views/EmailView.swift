@@ -114,6 +114,8 @@ class EmailView: UIView, MoveForwardAndBack {
     private func setupEmailTextField() {
         let tf = TYTextField()
         self.emailTextField = tf
+        tf.keyboardType = .emailAddress
+        tf.returnKeyType = .done
         self.addSubview(tf)
     }
     

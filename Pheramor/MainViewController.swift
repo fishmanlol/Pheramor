@@ -533,6 +533,10 @@ extension MainViewController {
         fullNameView.heightPickerView.isHidden = true
         return true
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.endEditing(true)
+        return true
+    }
 }
 
 extension UIColor {

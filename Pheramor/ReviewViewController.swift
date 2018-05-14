@@ -66,13 +66,18 @@ class ReviewViewController: UIViewController {
             },
                 to: "https://jobs.pheramor.com/assessment/iOS",
                 encodingCompletion: { encodingResult in
+                    
                     switch encodingResult {
                     case .success(let upload, _, _):
                         upload.responseString { response in
-                            debugPrint(response)
+                            let alertVc = UIAlertController(title: "Success", message: "Thanks for registration!", preferredStyle: .alert)
+                            alertVc.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                            self.present(alertVc, animated: true, completion: nil)
                         }
-                    case .failure(let encodingError):
-                        print(encodingError)
+                    case .failure( _):
+                        let alertVc = UIAlertController(title: "Failed", message: "Something wrong  here", preferredStyle: .alert)
+                        alertVc.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                        self.present(alertVc, animated: true, completion: nil)
                     }
             }
             )
