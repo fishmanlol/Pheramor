@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.7.2)
+  - MiniLayout (1.2.1)
+  - MultiSlider (1.4):
+    - MiniLayout
+  - SnapKit (4.0.0)
+  - TYTextField (0.0.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - MultiSlider
+  - SnapKit
+  - TYTextField
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MiniLayout
+    - MultiSlider
+    - SnapKit
+    - TYTextField
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  MiniLayout: 9ee6ff0d73c1c2af09251e062e9b45d012e446fb
+  MultiSlider: 1299e7eac043868c2adc8261ec9be2ea6ebec456
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  TYTextField: 215c1617d766a338f933d2c24208c732b2bc3327
+
+PODFILE CHECKSUM: c274dafbf952b562c7af420db6beb65231f1847b
+
+COCOAPODS: 1.5.2
